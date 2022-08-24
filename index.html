@@ -30,19 +30,19 @@
 						<!-- Navigation Bar -->
 						<ul class="navbar-nav ms-auto">
 							<li class="navbar-item">
-								<a class="nav-link " href="#">Link 1</a>
+								<a class="nav-link " href="#">Home</a>
 							</li>
 
 							<li class="navbar-item">
-								<a class="nav-link" href="#">Link 2</a>
+								<a class="nav-link" href="#Card-Produk">Produk</a>
 							</li>
 
 							<li class="navbar-item">
-								<a class="nav-link" href="#">Link 3</a>
+								<a class="nav-link" href="#">Tentang</a>
 							</li>
 
 							<li class="navbar-item">
-								<a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#myModal">Link 4</a>
+								<a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#myModal">From Pemesanan</a>
 							</li>
 						</ul>
 					</div>
@@ -98,7 +98,13 @@
 			</div>
 
 			<!-- Card -->
-			<div class="row my-4">
+			<div class="row" id="Card-Produk">
+				<div class="col">
+					<h4>Kategori Produk</h4>
+				</div>
+			</div>
+
+			<div class="row my-4" id="Card-Produk">
 				<div class="col-lg-3 my-2" style="max-width: 300px">
 					<div class="card border-0">
 						<div class="text-center">
@@ -154,7 +160,124 @@
 				</div>
 			</div>
 
-			<!-- Kontak (Modal dan Form) -->
+			<!-- Promosi (Kolom dan Tabel) -->
+			<div class="container">
+				<div class="row mb-4">
+					<div class="col text-center bg-secondary text-white">
+						<h1>Diskon Produk Laptop dan Smartphone</h1>
+					</div>
+				</div>
+
+				<div class="row mb-4">
+					<div class="col-lg-4">
+						<img class="mx-auto d-block" src="../Image/laptop.jpg" style="width: 250px">
+					</div>
+
+					<div class="col-lg-4">
+						<table class="table table-responsive-sm table-striped table-hover table-bordered table-sm mx-auto">
+							<thead class="table-dark">
+								<tr>
+									<th>Laptop</th>
+									<th>Smartphone</th>
+									<th>Diskon</th>
+								</th>
+							</thead>
+
+							<tbody>
+								<tr>
+									<td>Asus</td>
+									<td>Samsung</td>
+									<td>10%</td>
+								</tr>
+
+								<tr>
+									<td>Lenovo</td>
+									<td>Lenovo</td>
+									<td>25%</td>
+								</tr>
+
+								<tr>
+									<td>HP</td>
+									<td>Vivo</td>
+									<td>20%</td>
+								</tr>
+
+								<tr>
+									<td>Acer</td>
+									<td>Xiaomi</td>
+									<td>30%</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+
+					<div class="col-lg-4">
+						<img class="mx-auto d-block" src="../Image/smartphone.jpg" style="height: 250px">
+					</div>
+				</div>
+			</div>
+
+			<hr class="mt-5 mb-3">
+
+			<!-- Footer -->
+			<div class="container">
+				<div class="row mb-2">
+					<div class="col">
+						<img src="../Image/Djaystore_logo.png" style="width: 100px">
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col">
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, <br> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+						</p>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-lg-4 my-2">
+						<strong>Product</strong>
+						<div class="mt-2">
+							<a class="text-decoration-none text-dark" href="#">Smartphone</a>
+							<br>
+							<a class="text-decoration-none text-dark" href="#">Laptop</a>
+							<br>
+							<a class="text-decoration-none text-dark" href="#">Desktop</a>
+							<br>
+							<a class="text-decoration-none text-dark" href="#">Monitor</a>
+						</div>
+					</div>
+
+					<div class="col-lg-4 my-2">
+						<strong>Social media</strong>
+						<div class="mt-2">
+							<a class="text-decoration-none text-dark" href="#">Facebook Page</a>
+							<br>
+							<a class="text-decoration-none text-dark" href="#">Instagram</a>
+							<br>
+							<a class="text-decoration-none text-dark" href="#">Twitter</a>
+							<br>
+							<a class="text-decoration-none text-dark" href="#">Youtube Channel</a>
+							<br>
+							<a class="text-decoration-none text-dark" href="#">Telegram Channel</a>
+						</div>
+					</div>
+
+					<div class="col-lg-4 my-2">
+						<strong>Company</strong>
+						<div class="mt-2">
+							<a class="text-decoration-none text-dark" href="#">About</a>
+							<br>
+							<a class="text-decoration-none text-dark" href="#">FAQs</a>
+							<br>
+							<a class="text-decoration-none text-dark" href="#">Contact</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Modal dan Form Pemesanan -->
 			<div class="modal" id="myModal">
 				<div class="modal-dialog modal-dialog-centered">
 					<div class="modal-content">
@@ -211,16 +334,6 @@
 						</div>
 					</div>
 				</div>
-			</div>
-
-			<!-- Promosi (Kolom dan Tabel) -->
-			<div>
-				
-			</div>
-
-			<!-- Footer -->
-			<div>
-				
 			</div>
 		
 		</div>
