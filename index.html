@@ -2,10 +2,13 @@
 <html leng="en">
 	<head>
 		<title>Lorem ipsum</title>
+		
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link href="style.css" rel="stylesheet">
+		
 		<link href="../Bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="style.css" rel="stylesheet">
+		
 		<script src="../Bootstrap/js/bootstrap.bundle.min.js"></script>
 	</head>
 
@@ -39,7 +42,7 @@
 							</li>
 
 							<li class="navbar-item">
-								<a class="nav-link" href="#">Link 4</a>
+								<a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#myModal">Link 4</a>
 							</li>
 						</ul>
 					</div>
@@ -152,8 +155,24 @@
 			</div>
 
 			<!-- Kontak (Modal dan Form) -->
-			<div>
-				
+			<div class="modal" id="myModal">
+				<div class="modal-dialog modal-dialog-centered">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h4 class="modal-title">Lorem ipsum</h4>
+							<button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+						</div>
+
+						<div class="modal-body">
+							Lorem ipsum dolor sit amet...
+						</div>
+
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">lorem</button>
+							<button type="button" class="btn btn-success" data-bs-dismiss="modal">ipsum</button>
+						</div>
+					</div>
+				</div>
 			</div>
 
 			<!-- Promosi (Kolom dan Tabel) -->
